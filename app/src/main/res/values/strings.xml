@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WEIAPP</string>
+    <string name="Hello1">Hello World!!!</string>
+    <string name="Hello2">你好Android</string>
+</resources>
