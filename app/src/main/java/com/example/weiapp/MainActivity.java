@@ -17,10 +17,15 @@ public class MainActivity extends AppCompatActivity {
 
         String strHello = getResources().getText(R.string.Hello2).toString();
 
+        final int[] i = {1};
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                textView.setText(strHello);
+                i[0] = i[0] +1;
+                if(i[0] %2==0)
+                    textView.setText(strHello);
+                else
+                    textView.setText("Hello World!!!");
             }
         });
 
